@@ -3,3 +3,10 @@
 lib/build
 lib/pycocotools/_mask.c
 lib/pycocotools/_mask.so
+data/faster_rcnn_models
+data/imagenet_models
+data/VOCdevkit2007
+data/
+models/
+output/
+demo/

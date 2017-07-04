@@ -22,7 +22,7 @@ def parse_args():
     Parse input arguments
     """
     parser = argparse.ArgumentParser(description='Re-evaluate results')
-    parser.add_argument('output_dir', nargs=1, help='results directory',
+    parser.add_argument('--output_dir', nargs=1, help='results directory',
                         type=str)
     parser.add_argument('--imdb', dest='imdb_name',
                         help='dataset to re-evaluate',

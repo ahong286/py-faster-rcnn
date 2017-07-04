@@ -80,6 +80,7 @@ def demo(net, image_name):
     timer = Timer()
     timer.tic()
     scores, boxes = im_detect(net, im)
+
     timer.toc()
     print ('Detection took {:.3f}s for '
            '{:d} object proposals').format(timer.total_time, boxes.shape[0])
